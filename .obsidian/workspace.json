@@ -4,24 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "de66bd7f6a765709",
+        "id": "7c95f92fee52a0fc",
         "type": "tabs",
         "children": [
           {
-            "id": "cb51ea8bd782ab66",
+            "id": "cf60222f3fbd68aa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "myVue3/Readme.md",
-                "mode": "source",
-                "source": false
+                "file": "未来之道/Excalidraw/Vitest概况.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Readme"
+              "icon": "excalidraw-icon",
+              "title": "Vitest概况.excalidraw"
+            }
+          },
+          {
+            "id": "4b5699ddf4bf0582",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "未来之道/Excalidraw/Vitest概况.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Vitest概况.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,11 +207,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "199590f4f23163e8",
+  "active": "4b5699ddf4bf0582",
   "lastOpenFiles": [
-    "README.md",
+    "未来之道/测试种类与选择.md",
     "未来之道/Excalidraw/Vitest概况.excalidraw.md",
+    "未来之道/测试Motion组件.md",
     "未来之道/设计模式.md",
+    "未命名 1.md",
+    "myVue3/Readme.md",
+    "README.md",
     "未来之道/Excalidraw/shadcn系统.excalidraw.md",
     "未来之道/打包Motion库.md",
     "未来之道/兼容Nuxt的组件库.md",
@@ -217,18 +232,14 @@
     "AiDocs/vscode-metajump 插件使用手册.md",
     "myVue3/Vue3知识点总结/Ai文档集合/生命周期函数执行顺序.md",
     "AiDocs",
-    "未命名 1.md",
     "未来之道/Excalidraw",
     "vim/光标跳转常用（神器）.md",
-    "myVue3/Readme.md",
     "vim",
     "未命名.base",
     "未命名 1.base",
     "Ts/Ts常用配置解析.md",
     "Ts/Ts：Error-找不到模块“第三方库”或其相应的类型声明.md",
     "myVue3/Vue3知识点总结/Vue学习笔记（零碎知识）/reactive.md",
-    "myVue3/Js知识点总结/Js核心知识学习.md",
-    "myVue3/Js知识点总结/AI作用域、作用域链.md",
     "myVue3/Vue3知识点总结/图解某写知识点（零碎知识）/toRef原理解析.excalidraw.excalidraw",
     "myVue3/Vue3知识点总结/图解某写知识点（零碎知识）/reactive包裹ref原理.excalidraw.excalidraw",
     "myVue3/笔记资源（截图，图片等）/截屏-targetMap.png",

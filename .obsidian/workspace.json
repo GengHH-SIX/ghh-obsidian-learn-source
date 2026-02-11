@@ -23,12 +23,14 @@
             "id": "4b5699ddf4bf0582",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "未来之道/Excalidraw/Vitest概况.excalidraw.md"
+                "file": "myVue3/Vue3知识点总结/Ai文档集合/Vue3组合式hooks函数原理.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Vitest概况.excalidraw"
+              "icon": "lucide-file",
+              "title": "Vue3组合式hooks函数原理"
             }
           }
         ],
@@ -209,20 +211,21 @@
   },
   "active": "4b5699ddf4bf0582",
   "lastOpenFiles": [
-    "未来之道/测试种类与选择.md",
+    "未来之道/全面控制Motion动画 （待实践）.md",
+    "myVue3/Vue3知识点总结/Ai文档集合/Vue3组合式hooks函数原理.md",
+    "未来之道/封装Motion组件.md",
+    "未来之道/打包Motion库 （需修正）.md",
+    "未来之道/测试Motion组件 (需修正).md",
     "未来之道/Excalidraw/Vitest概况.excalidraw.md",
-    "未来之道/测试Motion组件.md",
+    "未来之道/测试种类与选择.md",
     "未来之道/设计模式.md",
     "未命名 1.md",
     "myVue3/Readme.md",
     "README.md",
     "未来之道/Excalidraw/shadcn系统.excalidraw.md",
-    "未来之道/打包Motion库.md",
     "未来之道/兼容Nuxt的组件库.md",
     "未来之道/深度了解Motion库.md",
     "未来之道/Zod Schema 与 Element Plus 表单规则的映射.md",
-    "未来之道/全面控制Motion动画.md",
-    "未来之道/封装Motion组件.md",
     "AiDocs/动画剖析.md",
     "vim/其他常用.md",
     "vim/同行（跨行）操作（d，y，v等）.md",
@@ -239,7 +242,6 @@
     "未命名 1.base",
     "Ts/Ts常用配置解析.md",
     "Ts/Ts：Error-找不到模块“第三方库”或其相应的类型声明.md",
-    "myVue3/Vue3知识点总结/Vue学习笔记（零碎知识）/reactive.md",
     "myVue3/Vue3知识点总结/图解某写知识点（零碎知识）/toRef原理解析.excalidraw.excalidraw",
     "myVue3/Vue3知识点总结/图解某写知识点（零碎知识）/reactive包裹ref原理.excalidraw.excalidraw",
     "myVue3/笔记资源（截图，图片等）/截屏-targetMap.png",

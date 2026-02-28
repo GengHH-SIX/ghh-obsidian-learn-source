@@ -25,16 +25,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "myVue3/Vue3知识点总结/Ai文档集合/Vue3组合式hooks函数原理.md",
+                "file": "未命名 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vue3组合式hooks函数原理"
+              "title": "未命名 1"
+            }
+          },
+          {
+            "id": "c3ddbce05a8ffc84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "myVue3/Readme.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Readme"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -209,17 +223,20 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "4b5699ddf4bf0582",
+  "active": "c3ddbce05a8ffc84",
   "lastOpenFiles": [
-    "未来之道/全面控制Motion动画 （待实践）.md",
+    "vueDocs/欢迎.md",
+    "Promise/手写Promise.excalidraw.md",
+    "未命名 1.md",
+    "Promise",
+    "未来之道/测试种类与选择.md",
     "myVue3/Vue3知识点总结/Ai文档集合/Vue3组合式hooks函数原理.md",
+    "未来之道/全面控制Motion动画 （待实践）.md",
     "未来之道/封装Motion组件.md",
     "未来之道/打包Motion库 （需修正）.md",
     "未来之道/测试Motion组件 (需修正).md",
     "未来之道/Excalidraw/Vitest概况.excalidraw.md",
-    "未来之道/测试种类与选择.md",
     "未来之道/设计模式.md",
-    "未命名 1.md",
     "myVue3/Readme.md",
     "README.md",
     "未来之道/Excalidraw/shadcn系统.excalidraw.md",
@@ -240,8 +257,6 @@
     "vim",
     "未命名.base",
     "未命名 1.base",
-    "Ts/Ts常用配置解析.md",
-    "Ts/Ts：Error-找不到模块“第三方库”或其相应的类型声明.md",
     "myVue3/Vue3知识点总结/图解某写知识点（零碎知识）/toRef原理解析.excalidraw.excalidraw",
     "myVue3/Vue3知识点总结/图解某写知识点（零碎知识）/reactive包裹ref原理.excalidraw.excalidraw",
     "myVue3/笔记资源（截图，图片等）/截屏-targetMap.png",
@@ -249,7 +264,6 @@
     "myVue3/笔记资源（截图，图片等）/computed时序图.png",
     "Ts",
     "未来之道",
-    "Nuxt",
     "myVue3/笔记资源（截图，图片等）/截屏-修改多层级数据重新搜集依赖后的targetMap.png",
     "myVue3/笔记资源（截图，图片等）/computed时序图.svg",
     "myself/Mermaid Chart - Create complex, visual diagrams with text.-2026-01-05-154003.svg",

@@ -15,8 +15,8 @@
               "state": {
                 "file": "未来之道/Excalidraw/Vitest概况.excalidraw.md"
               },
-              "icon": "excalidraw-icon",
-              "title": "Vitest概况.excalidraw"
+              "icon": "lucide-ghost",
+              "title": "excalidraw"
             }
           },
           {
@@ -41,8 +41,8 @@
               "state": {
                 "file": "Promise/手写Promise.excalidraw.md"
               },
-              "icon": "excalidraw-icon",
-              "title": "手写Promise.excalidraw"
+              "icon": "lucide-ghost",
+              "title": "excalidraw"
             }
           },
           {
@@ -51,16 +51,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AiDocs/动画剖析.md",
+                "file": "myVue3/Vue3知识点总结/Vue学习笔记（零碎知识）/watch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "动画剖析"
+              "title": "watch"
+            }
+          },
+          {
+            "id": "ded1f8ada776b067",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.12.7"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -210,8 +222,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "icon": "lucide-ghost",
+              "title": "mermaid-toolbar-view"
             }
           }
         ],
@@ -235,12 +247,23 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "8b8196575cbb5a8e",
+  "active": "ded1f8ada776b067",
   "lastOpenFiles": [
+    "myVue3/Readme.md",
+    "myVue3/Vue3知识点总结/图解某写知识点（零碎知识）/toRef原理解析.excalidraw.md",
+    "myVue3/Vue3知识点总结/Vue学习笔记（零碎知识）/watch.md",
+    "myVue3/Vue3知识点总结/Vue学习笔记（零碎知识）/reactive.md",
+    "myVue3/Vue3知识点总结/图解某写知识点（零碎知识）/toRef原理解析.excalidraw.excalidraw",
+    "myVue3/Vue3知识点总结/图解某写知识点（零碎知识）/Reactvie实现响应式原理.excalidraw.md",
+    "myVue3/Vue3知识点总结/图解某写知识点（零碎知识）/reactive包裹ref原理.excalidraw.excalidraw",
+    "myVue3/Excalidraw/vue3响应式式双项链表.excalidraw.md",
+    "myVue3/Excalidraw/Drawing 2025-12-26 03.12.22.excalidraw.md",
+    "myVue3/笔记资源（截图，图片等）/截屏-targetMap.png",
+    "myVue3/笔记资源（截图，图片等）/截屏-depsMap.png",
+    "AiDocs/动画剖析.md",
     "未来之道/兼容Nuxt的组件库.md",
     "Promise/手写Promise.excalidraw.md",
     "vim/光标跳转常用（神器）.md",
-    "myVue3/Readme.md",
     "vueDocs/欢迎.md",
     "未命名 1.md",
     "Promise",
@@ -256,23 +279,12 @@
     "未来之道/Excalidraw/shadcn系统.excalidraw.md",
     "未来之道/深度了解Motion库.md",
     "未来之道/Zod Schema 与 Element Plus 表单规则的映射.md",
-    "AiDocs/动画剖析.md",
     "vim/其他常用.md",
-    "vim/同行（跨行）操作（d，y，v等）.md",
-    "vim/g 指令常用 （定位 & 导航）.md",
-    "vim/m 指令常用 （标记 & 跳转）.md",
-    "vim/z 指令常用 （移动 & 折叠）.md",
-    "AiDocs/vscode-metajump 插件使用手册.md",
-    "myVue3/Vue3知识点总结/Ai文档集合/生命周期函数执行顺序.md",
     "AiDocs",
     "未来之道/Excalidraw",
     "vim",
     "未命名.base",
     "未命名 1.base",
-    "myVue3/Vue3知识点总结/图解某写知识点（零碎知识）/toRef原理解析.excalidraw.excalidraw",
-    "myVue3/Vue3知识点总结/图解某写知识点（零碎知识）/reactive包裹ref原理.excalidraw.excalidraw",
-    "myVue3/笔记资源（截图，图片等）/截屏-targetMap.png",
-    "myVue3/笔记资源（截图，图片等）/截屏-depsMap.png",
     "myVue3/笔记资源（截图，图片等）/computed时序图.png",
     "Ts",
     "未来之道",

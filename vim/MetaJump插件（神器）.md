@@ -6,11 +6,11 @@
 
 - the ==Alt+.== shortcut will trigger the metaGo.gotoAfter command, the cursor will be placed after the target character;
 - the ==Alt+,== shortcut will trigger the metaGo.gotoBefore command, the cursor will be placed before the target character;
-- the **==Alt+/==** shortcut will trigger the metaGo.gotoSmart command which intelligently set cursor position after navigation
+- the **==`Alt+/`==** shortcut will trigger the metaGo.gotoSmart command which intelligently set cursor position after navigation
 
 ### 选择
 
-1. type **==Alt+Shift+/ ==** to tell I want to _select_ to somewhere.
+1. type **==`Alt+Shift+/` ==** to tell I want to _select_ to somewhere.
 2. type the character(stands for location) on screen, metaGo will show you some codes encoded with character.
 3. type the code characters, you will _select_ to that location.
 4. repeat 1-3 to adjust your current selection.
@@ -19,14 +19,14 @@
 
 1. ==Ctrl+Alt+,== to add another cursor before the target-character.
 2. ==Ctrl+Alt+.== to add another cursor after the target-character.
-3. **==Ctrl+Alt+/==** to add another cursor smartly to the target-character.
+3. **==`Ctrl+Alt+/`==** to add another cursor smartly to the target-character.
 
     ==Ctrl+u to cancel last cursor action.==
 
 ### 删除
 
 1. ==alt+d==: to delete from cursor to the position smartly
-2. **==alt+backspace==**: to delete from cursor to the position before the target character
+2. **==`alt+backspace`==**: to delete from cursor to the position before the target character
 3. ==alt+delete==: to delete from cursor to the position after the target character
 
 

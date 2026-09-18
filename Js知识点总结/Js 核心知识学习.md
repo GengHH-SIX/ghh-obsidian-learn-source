@@ -1,3 +1,11 @@
+#### 高效教程
+[MDN](https://developer.mozilla.org/zh-CN/docs/Web/API)
+[ECMAScript 6 入门](https://es6.ruanyifeng.com/)
+[网道JavaScript 教程](https://wangdoc.com/javascript/)
+[TypeScript 教程](https://wangdoc.com/typescript/)
+[ECMAScript](https://tc39.es/ecma262/)
+
+#### 学习大纲
 
 1. **this** 指向
 2. **面向对象**: 封装、继承、多态
@@ -45,7 +53,7 @@
 20. ==**符号** (原 19)==
 21. ==**代理和反射** (原 11)==
 
-## 第一阶段：基础语法与核心机制
+#### 第一阶段：基础语法与核心机制
 
 这个阶段旨在建立扎实的编程基础，理解代码如何运行。
 
@@ -69,7 +77,7 @@
 7. **闭包** (原 6)
     - 在理解作用域和高阶函数的基础上学习闭包，你会发现它是一个非常强大且实用的设计模式。 
 
-## 第二阶段：面向对象与原型系统
+#### 第二阶段：面向对象与原型系统
 
 JavaScript 的面向对象与其他语言不同，主要基于原型链，需要单独深入理解。
 
@@ -79,7 +87,7 @@ JavaScript 的面向对象与其他语言不同，主要基于原型链，需要
     - 了解如何精确控制对象的属性（可写、可配置等），这在使用高级特性时很有用。 
 		[大师课视频教程](https://fe.duyiedu.com/p/t_pc/course_pc_detail/video/v_674eb76be4b023c058afbd66?product_id=course_2VKbErGXkTSzvbl9aQ9HgndEtIz)
 
-## 第三阶段：现代 JavaScript (ES6+) 新特性
+#### 第三阶段：现代 JavaScript (ES6+) 新特性
 
 掌握这些现代特性将使你的代码更简洁、更高效。 
 
@@ -95,7 +103,7 @@ JavaScript 的面向对象与其他语言不同，主要基于原型链，需要
 14. **面向对象: 封装、继承、多态** (原 2)
     - 结合“类”和“原型链”，系统学习面向对象的设计原则。 
 
-## 第四阶段：异步编程与高级数据结构
+#### 第四阶段：异步编程与高级数据结构
 
 这个阶段涵盖了现代Web开发中必不可少的异步处理和更复杂的数据类型。
 
@@ -108,7 +116,7 @@ JavaScript 的面向对象与其他语言不同，主要基于原型链，需要
 18. **类型化数组** (原 21)
     - 针对特定场景（如处理二进制数据）优化的数组类型。 
 
-## 第五阶段：模块化与进阶API
+#### 第五阶段：模块化与进阶API
 
 19. **ESModule** (原 15)
     - 现代 JS 组织和导入/导出代码的标准方式。
@@ -125,10 +133,6 @@ JavaScript 的面向对象与其他语言不同，主要基于原型链，需要
 
 
 
-##### 其他教程
-[ECMAScript 6 入门](https://es6.ruanyifeng.com/)
-[JavaScript 教程](https://wangdoc.com/javascript/)
-[TypeScript 教程](https://wangdoc.com/typescript/)
 
 
 ![[Pasted image 20260822033404.png]]

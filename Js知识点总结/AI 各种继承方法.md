@@ -141,7 +141,7 @@ Object.prototype --> null
 *   优点：解决了引用类型共享问题；可以向父类传参。
 
 *   缺点：
-    1.  无法继承原型方法：只能继承实例属性，父类原型上的方法（如 `sayName`）无法访问。
+    1.  ==无法继承原型方法：只能继承实例属性==，父类原型上的方法（如 `sayName`）无法访问。
     2.  函数复用性差: 方法都在构造函数中定义，每次创建实例都会创建新的函数副本。
 
 *   使用频率：低。通常作为组合继承的一部分。
@@ -419,7 +419,52 @@ Object.prototype --> null
 
 ---
 
-  
+
+
+
+#### 6.（==MDN上实现5的示例==） `Object.create()` 来实现类式继承 [用 Object.create() 实现类式继承](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/create#%E7%94%A8_object.create_%E5%AE%9E%E7%8E%B0%E7%B1%BB%E5%BC%8F%E7%BB%A7%E6%89%BF)
+下面的例子演示了如何使用 `Object.create()` 来实现类式继承。这是一个所有版本 JavaScript 都支持的单继承。
+```js
+// Shape——父类
+function Shape() {
+  this.x = 0;
+  this.y = 0;
+}
+
+// 父类方法
+Shape.prototype.move = function (x, y) {
+  this.x += x;
+  this.y += y;
+  console.info("Shape moved.");
+};
+
+// Rectangle——子类
+function Rectangle() {
+  Shape.call(this); // 调用父类构造函数。
+}
+
+// 子类继承父类
+Rectangle.prototype = Object.create(Shape.prototype, {
+  // 如果不将 Rectangle.prototype.constructor 设置为 Rectangle，
+  // 它将采用 Shape（父类）的 prototype.constructor。
+  // 为避免这种情况，我们将 prototype.constructor 设置为 Rectangle（子类）。
+  constructor: {
+    value: Rectangle,
+    enumerable: false,
+    writable: true,
+    configurable: true,
+  },
+});
+
+const rect = new Rectangle();
+
+console.log("rect 是 Rectangle 类的实例吗？", rect instanceof Rectangle); // true
+console.log("rect 是 Shape 类的实例吗？", rect instanceof Shape); // true
+rect.move(1, 1); // 打印 'Shape moved.'
+```
+
+需要注意的是，使用 `create()` 也有一些要注意的地方，比如重新添加 [`constructor`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor) 属性以确保正确的语义。虽然 `Object.create()` 被认为比使用 [`Object.setPrototypeOf()`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/setPrototypeOf) 修改原型更具有性能优势，但如果没有创建实例并且属性访问还没有被优化，它们之间的差异实际上是可以忽略不计的。在现代代码中，无论如何都应该优先使用[类](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes)语法。
+
 ### 三、 ES6 继承方案（2015 至今）
 
 ES6 引入了 `class`、`extends` 和 `super` 关键字，使继承变得清晰且规范。**其底层实现本质上就是寄生组合式继承**，但有一个关键差异：==ES6 是“先创建父类 this，再修饰它”==。
@@ -598,14 +643,14 @@ Function.prototype --> ...
 
 ### 四、 总结对比与场景建议
 
-| 特性 | ES5 组合继承 | ES5 寄生组合继承 | ES6 Class 继承 |
-| --- | --- | --- | --- |
-| ‌核心逻辑‌ | 原型链 + 构造函数借用 | Object.create + 构造函数借用 | extends + super |
-| ‌父类构造函数调用次数‌ | 2 次 | 1 次 | 1 次 |
-| ‌原型链纯净度‌ | 有冗余属性 | 纯净 | 纯净 |
-| ‌原生对象继承‌ | 困难/不支持 | 困难/不支持 | 完美支持 |
-| ‌代码复杂度‌ | 中等 | 高 | 低 |
-| ‌使用频率‌ | 旧项目常见 | 库源码常见 | ‌新项目标准‌ |
+| 特性           | ES5 组合继承（使用3） | ES5 寄生组合继承（优先使用4）      | ES6 Class 继承    |
+| ------------ | ------------- | ---------------------- | --------------- |
+| ‌核心逻辑‌       | 原型链 + 构造函数借用  | Object.create + 构造函数借用 | extends + super |
+| ‌父类构造函数调用次数‌ | 2 次           | 1 次                    | 1 次             |
+| ‌原型链纯净度‌     | 有冗余属性         | 纯净                     | 纯净              |
+| ‌原生对象继承‌     | 困难/不支持        | 困难/不支持                 | 完美支持            |
+| ‌代码复杂度‌      | 中等            | 高                      | 低               |
+| ‌使用频率‌       | 旧项目常见         | 库源码常见                  | ‌新项目标准‌         |
 
   
 

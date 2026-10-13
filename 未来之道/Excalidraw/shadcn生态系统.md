@@ -275,7 +275,7 @@ CLI 访问上述拼接出的 URL 后，下载的并不是直接的 `.tsx` 代码
 
 	- 缺点： 需要开发者手动补全一部分配置，工作量较大
 
-**方式二**（==推荐==）：使用大佬 "柠檬哥" [https://lonewolfyx.vercel.app](https://lonewolfyx.vercel.app/) 搭建的 `template` nuxt的模版项目 **[shadcn-vue-registry-template](https://github.com/lonewolfyx/shadcn-vue-registry-template)**；将构建后的文件放入到自己的静态资源网站下，用户就可有配置`conmponents.json`文件来下载组件等源码
+**方式二**（==推荐==）：使用大佬 "老司机 & 柠檬哥" [https://lonewolfyx.vercel.app](https://lonewolfyx.vercel.app/) 搭建的 `template` nuxt的模版项目 **[shadcn-vue-registry-template](https://github.com/lonewolfyx/shadcn-vue-registry-template)**；将构建后的文件放入到自己的静态资源网站下，用户就可有配置`conmponents.json`文件来下载组件等源码
 
 	- 优点：不用手动配置registry.json 和 registry-item.json 等配置文件，开发者也不用编写registry.config.js；
 	- 缺点：是个nuxt项目模版，多数情况下可能显得有点冗余
